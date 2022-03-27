@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@font-face {
+    font-family: 'FarFromHomecoming';
+    src: url('Typo-FarFromHomecoming.woff2') format('woff2');
+}
+
+:root {
+    --red: #B11313;
+    --yellow: #F1C530;
+    --blue: #114C92;
+    --black: #000000;
+    --white: #FFFFFF;
+}
+
+.bg-red {
+    background-color: var(--red) !important;
+}
+
+.text-red {
+    color: var(--red) !important;
+}
+
+.bg-yellow {
+    background-color: var(--yellow) !important;
+}
+
+.text-yellow {
+    color: var(--yellow) !important;
+}
+
+.bg-blue {
+    background-color: var(--blue) !important;
+}
+
+.text-blue {
+    color: var(--blue) !important;
+}
+
+.bg-black {
+    background-color: var(--black) !important;
+}
+
+.text-black {
+    color: var(--black) !important;
+}
+
+.bg-white {
+    background-color: var(--white) !important;
+}
+
+.text-white {
+    color: var(--white) !important;
+}
+
+.font-Montserrat {
+    font-family: 'Montserrat', sans-serif !important;
+}
+
+.font-FarFromHomecoming {
+    font-family: 'FarFromHomecoming' !important;
+}
+
+.btn-outline-white {
+    border: 1px solid var(--white) !important;
+}
